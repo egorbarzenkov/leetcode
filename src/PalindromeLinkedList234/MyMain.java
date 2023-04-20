@@ -4,7 +4,7 @@ public class MyMain {
     public static void main(String[] args) {
         MyMain main = new MyMain();
         System.out.println(main.isPalindrome(new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(1))))));
-        System.out.println(main.isPalindrome(new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(1))))));
+        System.out.println(main.isPalindrome(new ListNode(1, new ListNode(2))));
     }
 
     public boolean isPalindrome(ListNode head) {
